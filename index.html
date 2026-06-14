@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dad!</title>
+    <style>
+        body {
+            /* Loads your specific mountain image */
+            background-image: url('image (2).jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+            /* Centers the text card on the screen */
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            backdrop-filter: blur(5px); /* Blurs mountain background slightly behind text */
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Happy Birthday, Dad! 🏔️</h1>
+        <p>Wishing the best dad in the world an incredible day filled with new peaks to conquer!</p>
+        <button class="btn" onclick="alert('🎉 Best Dad Ever Award goes to you! 🎉')">Click Me!</button>
+    </div>
+
+</body>
+</html>
